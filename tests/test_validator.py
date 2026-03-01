@@ -1,5 +1,6 @@
-from src.validator import is_valid_number
-
+from src import validator
 def test_valid_number():
-    assert is_valid_number(10) == True
-
+    assert is_valid_number(10)
+from src import validator 
+def test_valid_number():
+    assert is_valid_number(10)
