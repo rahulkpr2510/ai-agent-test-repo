@@ -1,5 +1,3 @@
-from src.calculator import divide
-
+from src import calculator
 def test_divide():
-    assert divide(10, 2) == 5
-
+    assert calculator.divide(10, 2) == 5
